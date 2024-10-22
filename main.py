@@ -33,6 +33,9 @@ def output_meal_plan_Shopping_list(file_path, meal_plan, shopping_list):
         for item in shopping_list:
             file.write(f"- {item['quantity']} {item['unit']} {item['name']}\n")
 
+
+
+
 #simple test for output uncomment to test
 '''
 meal_plan = [

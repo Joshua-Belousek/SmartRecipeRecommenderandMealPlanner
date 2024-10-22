@@ -1,0 +1,903 @@
+{
+    "Spaghetti Bolognese": {
+        "ingredients": {
+            "spaghetti": 200,
+            "ground beef": 150,
+            "tomato sauce": 100,
+            "onion": 50,
+            "garlic": 5
+        },
+        "diet": "non-vegetarian",
+        "nutrition": {
+            "calories": 650,
+            "protein": 30,
+            "carbs": 85,
+            "fat": 20,
+            "fiber": 5
+        }
+    },
+    "Vegetable Stir Fry": {
+        "ingredients": {
+            "broccoli": 100,
+            "carrot": 50,
+            "bell pepper": 50,
+            "soy sauce": 10,
+            "garlic": 5
+        },
+        "diet": "vegan",
+        "nutrition": {
+            "calories": 200,
+            "protein": 6,
+            "carbs": 35,
+            "fat": 3,
+            "fiber": 8
+        }
+    },
+    "Grilled Chicken Salad": {
+        "ingredients": {
+            "chicken breast": 150,
+            "lettuce": 50,
+            "tomato": 30,
+            "cucumber": 30,
+            "olive oil": 10
+        },
+        "diet": "non-vegetarian",
+        "nutrition": {
+            "calories": 300,
+            "protein": 35,
+            "carbs": 10,
+            "fat": 12,
+            "fiber": 4
+        }
+    },
+    "Pancakes": {
+        "ingredients": {
+            "flour": 100,
+            "milk": 200,
+            "egg": 50,
+            "sugar": 20,
+            "butter": 10
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 450,
+            "protein": 12,
+            "carbs": 70,
+            "fat": 15,
+            "fiber": 2
+        }
+    },
+    "Lentil Soup": {
+        "ingredients": {
+            "lentils": 100,
+            "carrot": 50,
+            "celery": 30,
+            "onion": 50,
+            "vegetable broth": 200
+        },
+        "diet": "vegan",
+        "nutrition": {
+            "calories": 250,
+            "protein": 15,
+            "carbs": 40,
+            "fat": 2,
+            "fiber": 12
+        }
+    },
+    "Omelette": {
+        "ingredients": {
+            "egg": 100,
+            "milk": 50,
+            "cheddar cheese": 30,
+            "spinach": 20,
+            "butter": 10
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 300,
+            "protein": 18,
+            "carbs": 5,
+            "fat": 24,
+            "fiber": 1
+        }
+    },
+    "Quinoa Salad": {
+        "ingredients": {
+            "quinoa": 100,
+            "cherry tomatoes": 50,
+            "cucumber": 50,
+            "feta cheese": 30,
+            "olive oil": 10
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 350,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 15,
+            "fiber": 6
+        }
+    },
+    "Chicken Curry": {
+        "ingredients": {
+            "chicken breast": 150,
+            "coconut milk": 100,
+            "curry paste": 20,
+            "onion": 50,
+            "bell pepper": 50
+        },
+        "diet": "non-vegetarian",
+        "nutrition": {
+            "calories": 500,
+            "protein": 35,
+            "carbs": 15,
+            "fat": 30,
+            "fiber": 4
+        }
+    },
+    "Tofu Stir Fry": {
+        "ingredients": {
+            "tofu": 100,
+            "broccoli": 50,
+            "carrot": 50,
+            "soy sauce": 10,
+            "garlic": 5
+        },
+        "diet": "vegan",
+        "nutrition": {
+            "calories": 250,
+            "protein": 15,
+            "carbs": 20,
+            "fat": 12,
+            "fiber": 6
+        }
+    },
+    "Fruit Smoothie": {
+        "ingredients": {
+            "banana": 1,
+            "strawberries": 50,
+            "yogurt": 100,
+            "milk": 100,
+            "honey": 10
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 200,
+            "protein": 8,
+            "carbs": 35,
+            "fat": 3,
+            "fiber": 4
+        }
+    },
+    "Avocado Toast": {
+        "ingredients": {
+            "bread": 50,
+            "avocado": 50,
+            "lemon juice": 5,
+            "salt": 1,
+            "pepper": 1
+        },
+        "diet": "vegan",
+        "nutrition": {
+            "calories": 250,
+            "protein": 6,
+            "carbs": 30,
+            "fat": 12,
+            "fiber": 7
+        }
+    },
+    "Beef Tacos": {
+        "ingredients": {
+            "ground beef": 100,
+            "taco shells": 50,
+            "lettuce": 30,
+            "cheddar cheese": 20,
+            "salsa": 20
+        },
+        "diet": "non-vegetarian",
+        "nutrition": {
+            "calories": 400,
+            "protein": 22,
+            "carbs": 30,
+            "fat": 22,
+            "fiber": 4
+        }
+    },
+    "Greek Salad": {
+        "ingredients": {
+            "lettuce": 50,
+            "tomato": 30,
+            "cucumber": 30,
+            "feta cheese": 30,
+            "olive oil": 10
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 200,
+            "protein": 6,
+            "carbs": 10,
+            "fat": 15,
+            "fiber": 3
+        }
+    },
+    "Mushroom Risotto": {
+        "ingredients": {
+            "arborio rice": 100,
+            "mushrooms": 50,
+            "parmesan cheese": 20,
+            "onion": 30,
+            "vegetable broth": 200
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 450,
+            "protein": 12,
+            "carbs": 70,
+            "fat": 12,
+            "fiber": 4
+        }
+    },
+    "Shrimp Pasta": {
+        "ingredients": {
+            "pasta": 100,
+            "shrimp": 100,
+            "garlic": 5,
+            "olive oil": 10,
+            "lemon juice": 10
+        },
+        "diet": "non-vegetarian",
+        "nutrition": {
+            "calories": 500,
+            "protein": 25,
+            "carbs": 60,
+            "fat": 15,
+            "fiber": 3
+        }
+    },
+    "Veggie Burger": {
+        "ingredients": {
+            "burger bun": 50,
+            "veggie patty": 100,
+            "lettuce": 20,
+            "tomato": 20,
+            "ketchup": 10
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 350,
+            "protein": 15,
+            "carbs": 45,
+            "fat": 12,
+            "fiber": 6
+        }
+    },
+    "Chicken Alfredo": {
+        "ingredients": {
+            "fettuccine": 100,
+            "chicken breast": 150,
+            "cream": 50,
+            "parmesan cheese": 20,
+            "garlic": 5
+        },
+        "diet": "non-vegetarian",
+        "nutrition": {
+            "calories": 700,
+            "protein": 40,
+            "carbs": 60,
+            "fat": 35,
+            "fiber": 3
+        }
+    },
+    "Banana Bread": {
+        "ingredients": {
+            "banana": 100,
+            "flour": 100,
+            "sugar": 50,
+            "egg": 50,
+            "butter": 50
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 400,
+            "protein": 6,
+            "carbs": 60,
+            "fat": 15,
+            "fiber": 3
+        }
+    },
+    "Chickpea Curry": {
+        "ingredients": {
+            "chickpeas": 100,
+            "tomato": 50,
+            "onion": 50,
+            "coconut milk": 100,
+            "curry powder": 5
+        },
+        "diet": "vegan",
+        "nutrition": {
+            "calories": 350,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 15,
+            "fiber": 10
+        }
+    },
+    "Egg Fried Rice": {
+        "ingredients": {
+            "rice": 100,
+            "egg": 50,
+            "peas": 30,
+            "carrot": 30,
+            "soy sauce": 10
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 400,
+            "protein": 10,
+            "carbs": 70,
+            "fat": 8,
+            "fiber": 4
+        }
+    },
+    "Salmon Teriyaki": {
+        "ingredients": {
+            "salmon": 150,
+            "teriyaki sauce": 20,
+            "rice": 100,
+            "broccoli": 50,
+            "sesame seeds": 5
+        },
+        "diet": "non-vegetarian",
+        "nutrition": {
+            "calories": 600,
+            "protein": 35,
+            "carbs": 60,
+            "fat": 25,
+            "fiber": 6
+        }
+    },
+    "Caprese Salad": {
+        "ingredients": {
+            "tomato": 50,
+            "mozzarella": 50,
+            "basil": 5,
+            "olive oil": 10,
+            "balsamic vinegar": 5
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 250,
+            "protein": 12,
+            "carbs": 8,
+            "fat": 18,
+            "fiber": 2
+        }
+    },
+    "Beef Stew": {
+        "ingredients": {
+            "beef": 150,
+            "potato": 100,
+            "carrot": 50,
+            "onion": 50,
+            "beef broth": 200
+        },
+        "diet": "non-vegetarian",
+        "nutrition": {
+            "calories": 500,
+            "protein": 30,
+            "carbs": 40,
+            "fat": 20,
+            "fiber": 6
+        }
+    },
+    "Vegan Chili": {
+        "ingredients": {
+            "kidney beans": 100,
+            "tomato": 50,
+            "bell pepper": 50,
+            "onion": 50,
+            "chili powder": 5
+        },
+        "diet": "vegan",
+        "nutrition": {
+            "calories": 300,
+            "protein": 15,
+            "carbs": 45,
+            "fat": 5,
+            "fiber": 12
+        }
+    },
+    "Stuffed Peppers": {
+        "ingredients": {
+            "bell pepper": 100,
+            "rice": 50,
+            "ground beef": 100,
+            "tomato sauce": 50,
+            "cheddar cheese": 20
+        },
+        "diet": "non-vegetarian",
+        "nutrition": {
+            "calories": 450,
+            "protein": 25,
+            "carbs": 40,
+            "fat": 18,
+            "fiber": 5
+        }
+    },
+    "Spinach Lasagna": {
+        "ingredients": {
+            "lasagna noodles": 100,
+            "spinach": 50,
+            "ricotta cheese": 50,
+            "mozzarella": 50,
+            "tomato sauce": 100
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 550,
+            "protein": 25,
+            "carbs": 70,
+            "fat": 20,
+            "fiber": 6
+        }
+    },
+    "Chicken Noodle Soup": {
+        "ingredients": {
+            "chicken breast": 100,
+            "noodles": 50,
+            "carrot": 30,
+            "celery": 30,
+            "chicken broth": 200
+        },
+        "diet": "non-vegetarian",
+        "nutrition": {
+            "calories": 300,
+            "protein": 20,
+            "carbs": 30,
+            "fat": 8,
+            "fiber": 3
+        }
+    },
+    "Eggplant Parmesan": {
+        "ingredients": {
+            "eggplant": 100,
+            "breadcrumbs": 50,
+            "parmesan cheese": 30,
+            "tomato sauce": 50,
+            "mozzarella": 50
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 400,
+            "protein": 15,
+            "carbs": 45,
+            "fat": 18,
+            "fiber": 7
+        }
+    },
+    "Turkey Sandwich": {
+        "ingredients": {
+            "bread": 50,
+            "turkey": 50,
+            "lettuce": 20,
+            "tomato": 20,
+            "mayonnaise": 10
+        },
+        "diet": "non-vegetarian",
+        "nutrition": {
+            "calories": 300,
+            "protein": 15,
+            "carbs": 30,
+            "fat": 12,
+            "fiber": 2
+        }
+    },
+    "Black Bean Burrito": {
+        "ingredients": {
+            "tortilla": 50,
+            "black beans": 100,
+            "rice": 50,
+            "cheddar cheese": 20,
+            "salsa": 20
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 450,
+            "protein": 18,
+            "carbs": 65,
+            "fat": 12,
+            "fiber": 10
+        }
+    },
+    "Miso Soup": {
+        "ingredients": {
+            "miso paste": 20,
+            "tofu": 50,
+            "seaweed": 5,
+            "green onion": 10,
+            "water": 200
+        },
+        "diet": "vegan",
+        "nutrition": {
+            "calories": 100,
+            "protein": 8,
+            "carbs": 10,
+            "fat": 3,
+            "fiber": 2
+        }
+    },
+    "Apple Pie": {
+        "ingredients": {
+            "apple": 100,
+            "flour": 100,
+            "sugar": 50,
+            "butter": 50,
+            "cinnamon": 5
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 400,
+            "protein": 4,
+            "carbs": 60,
+            "fat": 15,
+            "fiber": 5
+        }
+    },
+    "Seafood Paella": {
+        "ingredients": {
+            "rice": 100,
+            "shrimp": 50,
+            "mussels": 50,
+            "chicken broth": 200,
+            "peas": 30
+        },
+        "diet": "non-vegetarian",
+        "nutrition": {
+            "calories": 500,
+            "protein": 25,
+            "carbs": 70,
+            "fat": 10,
+            "fiber": 5
+        }
+    },
+    "Falafel Wrap": {
+        "ingredients": {
+            "pita bread": 50,
+            "falafel": 100,
+            "lettuce": 20,
+            "tomato": 20,
+            "tahini sauce": 10
+        },
+        "diet": "vegan",
+        "nutrition": {
+            "calories": 400,
+            "protein": 12,
+            "carbs": 50,
+            "fat": 15,
+            "fiber": 8
+        }
+    },
+    "Pesto Pasta": {
+        "ingredients": {
+            "pasta": 100,
+            "basil": 20,
+            "pine nuts": 10,
+            "parmesan cheese": 20,
+            "olive oil": 10
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 500,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 20,
+            "fiber": 4
+        }
+    },
+    "Chicken Fajitas": {
+        "ingredients": {
+            "chicken breast": 150,
+            "tortilla": 50,
+            "bell pepper": 50,
+            "onion": 50,
+            "sour cream": 20
+        },
+        "diet": "non-vegetarian",
+        "nutrition": {
+            "calories": 550,
+            "protein": 35,
+            "carbs": 45,
+            "fat": 20,
+            "fiber": 6
+        }
+    },
+    "Vegetable Soup": {
+        "ingredients": {
+            "carrot": 50,
+            "celery": 30,
+            "tomato": 50,
+            "potato": 50,
+            "vegetable broth": 200
+        },
+        "diet": "vegan",
+        "nutrition": {
+            "calories": 150,
+            "protein": 5,
+            "carbs": 30,
+            "fat": 2,
+            "fiber": 6
+        }
+    },
+    "Chocolate Chip Cookies": {
+        "ingredients": {
+            "flour": 100,
+            "sugar": 50,
+            "butter": 50,
+            "egg": 50,
+            "chocolate chips": 50
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 450,
+            "protein": 6,
+            "carbs": 60,
+            "fat": 20,
+            "fiber": 2
+        }
+    },
+    "Sushi Rolls": {
+        "ingredients": {
+            "sushi rice": 100,
+            "nori sheets": 10,
+            "cucumber": 30,
+            "avocado": 30,
+            "soy sauce": 10
+        },
+        "diet": "vegan",
+        "nutrition": {
+            "calories": 300,
+            "protein": 6,
+            "carbs": 60,
+            "fat": 6,
+            "fiber": 5
+        }
+    },
+    "BBQ Ribs": {
+        "ingredients": {
+            "pork ribs": 200,
+            "bbq sauce": 50,
+            "brown sugar": 20,
+            "garlic powder": 5,
+            "onion powder": 5
+        },
+        "diet": "non-vegetarian",
+        "nutrition": {
+            "calories": 700,
+            "protein": 40,
+            "carbs": 30,
+            "fat": 50,
+            "fiber": 2
+        }
+    },
+    "Hummus and Pita": {
+        "ingredients": {
+            "chickpeas": 100,
+            "tahini": 20,
+            "lemon juice": 10,
+            "garlic": 5,
+            "pita bread": 50
+        },
+        "diet": "vegan",
+        "nutrition": {
+            "calories": 350,
+            "protein": 12,
+            "carbs": 45,
+            "fat": 12,
+            "fiber": 8
+        }
+    },
+    "Tomato Basil Soup": {
+        "ingredients": {
+            "tomato": 100,
+            "basil": 5,
+            "vegetable broth": 200,
+            "cream": 50,
+            "onion": 50
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 250,
+            "protein": 5,
+            "carbs": 20,
+            "fat": 15,
+            "fiber": 4
+        }
+    },
+    "Chicken Caesar Salad": {
+        "ingredients": {
+            "chicken breast": 100,
+            "lettuce": 50,
+            "parmesan cheese": 20,
+            "croutons": 20,
+            "caesar dressing": 20
+        },
+        "diet": "non-vegetarian",
+        "nutrition": {
+            "calories": 400,
+            "protein": 25,
+            "carbs": 20,
+            "fat": 22,
+            "fiber": 3
+        }
+    },
+    "Veggie Omelette": {
+        "ingredients": {
+            "egg": 100,
+            "spinach": 20,
+            "mushrooms": 20,
+            "onion": 20,
+            "cheddar cheese": 20
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 350,
+            "protein": 20,
+            "carbs": 5,
+            "fat": 28,
+            "fiber": 2
+        }
+    },
+    "Pad Thai": {
+        "ingredients": {
+            "rice noodles": 100,
+            "shrimp": 50,
+            "egg": 50,
+            "bean sprouts": 30,
+            "peanuts": 10
+        },
+        "diet": "non-vegetarian",
+        "nutrition": {
+            "calories": 600,
+            "protein": 25,
+            "carbs": 80,
+            "fat": 20,
+            "fiber": 5
+        }
+    },
+    "Roasted Vegetables": {
+        "ingredients": {
+            "potato": 50,
+            "carrot": 50,
+            "zucchini": 50,
+            "olive oil": 10,
+            "rosemary": 5
+        },
+        "diet": "vegan",
+        "nutrition": {
+            "calories": 200,
+            "protein": 4,
+            "carbs": 30,
+            "fat": 8,
+            "fiber": 6
+        }
+    },
+    "BLT Sandwich": {
+        "ingredients": {
+            "bread": 50,
+            "bacon": 30,
+            "lettuce": 20,
+            "tomato": 20,
+            "mayonnaise": 10
+        },
+        "diet": "non-vegetarian",
+        "nutrition": {
+            "calories": 350,
+            "protein": 12,
+            "carbs": 30,
+            "fat": 18,
+            "fiber": 2
+        }
+    },
+    "Pumpkin Soup": {
+        "ingredients": {
+            "pumpkin": 100,
+            "vegetable broth": 200,
+            "cream": 50,
+            "onion": 50,
+            "nutmeg": 2
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 250,
+            "protein": 5,
+            "carbs": 20,
+            "fat": 15,
+            "fiber": 5
+        }
+    },
+    "Chicken Quesadilla": {
+        "ingredients": {
+            "tortilla": 50,
+            "chicken breast": 100,
+            "cheddar cheese": 50,
+            "bell pepper": 30,
+            "sour cream": 20
+        },
+        "diet": "non-vegetarian",
+        "nutrition": {
+            "calories": 600,
+            "protein": 35,
+            "carbs": 40,
+            "fat": 30,
+            "fiber": 4
+        }
+    },
+    "Vegetable Curry": {
+        "ingredients": {
+            "potato": 50,
+            "cauliflower": 50,
+            "peas": 30,
+            "coconut milk": 100,
+            "curry powder": 5
+        },
+        "diet": "vegan",
+        "nutrition": {
+            "calories": 350,
+            "protein": 8,
+            "carbs": 40,
+            "fat": 18,
+            "fiber": 7
+        }
+    },
+    "Grilled Cheese Sandwich": {
+        "ingredients": {
+            "bread": 50,
+            "cheddar cheese": 50,
+            "butter": 10,
+            "tomato": 20,
+            "basil": 5
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 400,
+            "protein": 15,
+            "carbs": 30,
+            "fat": 25,
+            "fiber": 2
+        }
+    },
+    "Steak and Potatoes": {
+        "ingredients": {
+            "steak": 200,
+            "potato": 100,
+            "butter": 10,
+            "garlic": 5,
+            "rosemary": 5
+        },
+        "diet": "non-vegetarian",
+        "nutrition": {
+            "calories": 700,
+            "protein": 50,
+            "carbs": 30,
+            "fat": 40,
+            "fiber": 3
+        }
+    },
+    "Veggie Pizza": {
+        "ingredients": {
+            "pizza dough": 100,
+            "tomato sauce": 50,
+            "mozzarella": 50,
+            "bell pepper": 30,
+            "mushrooms": 30
+        },
+        "diet": "vegetarian",
+        "nutrition": {
+            "calories": 500,
+            "protein": 20,
+            "carbs": 60,
+            "fat": 18,
+            "fiber": 5
+        }
+    }
+}
