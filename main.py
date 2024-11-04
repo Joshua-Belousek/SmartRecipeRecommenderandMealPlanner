@@ -1,37 +1,38 @@
-import csv
-import json
 
-def read_ingredients_csv(file):
-    with open(file, mode = 'r') as file: #open the file on reading mode
-        ingredients = []
-        reader = csv.reader(file)
-        next(reader) # skip the header of the file
-        for row in reader:
-            ingredients.append({
-                "name": row[0],     
-                "quantity": row[1],
-                "unit": row[2]})
-                  
-    return ingredients      #ingredients[0]['name'] will access the name of the first ingredient
-
-#function to read Json file
-def read_Json(file):
-    with open(file, mode='r') as file:
-        prefrences = json.load(file)
-    return prefrences
+import inputs, algorithms
 
 
-# write the meal plan and shopping list to a text file considering meal_plan a list of stirngs
-# and shopping_list a list of dictonaries
-def output_meal_plan_Shopping_list(file_path, meal_plan, shopping_list):
-    with open(file_path, 'w') as file:  #open the file on writing mode
-        file.write("Meal Plan:\n")
-        for meal in meal_plan:
-            file.write(f"- {meal}\n")
-        
-        file.write("\nShopping List:\n")
-        for item in shopping_list:
-            file.write(f"- {item['quantity']} {item['unit']} {item['name']}\n")
+if __name__ == "__main__":
+    #Get names of files with ingredients and preferences in them
+    #ingredients_file = input("What is the file that your ingredients are in")
+    #preferences_file = input("What is the file that your preferences are in")
+    ingredients_file = "data\\ingredients.csv"
+    preferences_file = "data\\preferences.json"
+
+    #open the files and get the contences stored in a data structure
+    ingredients = inputs.read_ingredients_csv(ingredients_file)
+    preferences = inputs.read_Json(preferences_file)
+    recommended_recipes = algorithms.recommend_recpies(preferences, ingredients) 
+    meal_plan = algorithms.create_meal_plan(recommended_recipes,preferences)
+    #print(meal_plan)
+    #for days in meal_plan.keys():
+    #    print(days)
+    #    print(meal_plan[days])
+
+    shopping_list = algorithms.generate_shopping_list(meal_plan, ingredients)
+    print(shopping_list)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
