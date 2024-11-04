@@ -66,7 +66,7 @@ def create_meal_plan(recipes, preferences):
 
         #While the day's nutrition does not meet the goals
         while not meets_daily_nutritional_goals(day_nutrition, nutritional_goals):
-            #First, get list of recipes that fit the diet and haven't been used today
+            #Get list of recipes that have not been used today
             possible_recipes = {
                 name: recipe for name, recipe in recipes.items()
                 if name not in recipes_used_today
@@ -91,7 +91,7 @@ def create_meal_plan(recipes, preferences):
             possible_recipes_list = sorted(possible_recipes.items(),
                                       key=lambda x: x[1]['missing_ingredients_count'])
 
-            # Randomize recipes with same missing ingredients count
+            #Randomize recipes with same missing ingredients count
             min_missing = possible_recipes_list[0][1]['missing_ingredients_count']
             best_recipes = [item for item in possible_recipes_list if item[1]['missing_ingredients_count'] == min_missing]
             selected_recipe_name, selected_recipe = random.choice(best_recipes)
@@ -130,10 +130,10 @@ def generate_shopping_list(meal_plan, ingredients):
             for item, qty in meal_plan[day][meal]['ingredients'].items():
                 available_qty = 0
                 have_item = None
-                for i in after_meal_ingredients:
-                    if i['name'] == item:
-                        available_qty = i['quantity']
-                        have_Item = i
+                for ingredients_item in after_meal_ingredients:
+                    if ingredients_item['name'] == item:
+                        available_qty = ingredients_item['quantity']
+                        have_Item = ingredients_item
                 if available_qty < qty:
                     if have_Item:
                         have_Item['quantity'] = 0
