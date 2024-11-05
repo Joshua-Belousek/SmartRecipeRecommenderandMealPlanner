@@ -16,11 +16,11 @@ if __name__ == "__main__":
     meal_plan = algorithms.create_meal_plan(recommended_recipes,preferences)
     #print(meal_plan)
     #for days in meal_plan.keys():
-    #    print(days)
-    #    print(meal_plan[days])
+     #   print(days)
+      #  print(meal_plan[days].keys())
 
-    shopping_list = algorithms.generate_shopping_list(meal_plan, ingredients)
-    print(shopping_list)
+    #shopping_list = algorithms.generate_shopping_list(meal_plan, ingredients)
+    #print(shopping_list)
 
 
 

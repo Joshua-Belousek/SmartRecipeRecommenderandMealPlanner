@@ -86,7 +86,7 @@ def create_meal_plan(recipes, preferences):
             if not possible_recipes:
                 print(f"No more recipes available to meet nutritional goals for {day}.")
                 break
-
+            
             #Prioritize recipes with fewer missing ingredients
             possible_recipes_list = sorted(possible_recipes.items(),
                                       key=lambda x: x[1]['missing_ingredients_count'])
@@ -146,3 +146,10 @@ def generate_shopping_list(meal_plan, ingredients):
                     have_Item['quantity'] -= qty
 
     return shopping_list
+
+#################################################################################################
+##                                  Nutritional Analysis                                       ##
+#################################################################################################
+
+def nutritional_analysis(meal_plan):
+    pass
