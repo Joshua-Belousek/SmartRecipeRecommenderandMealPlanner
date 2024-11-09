@@ -26,10 +26,10 @@ The Smart Recipe Recommender and Meal Planner is a console application that take
    - Input your nutritional goals (e.g., calories, protein, carbs, fat).
 
 3. **Meal Plan Generation**:
-   - The app will generate a weekly meal plan for you based on your preferences.
+   - The app will generate a weekly meal plan for you based on your preferences to an output file ".txt".
 
 4. **Shopping List**:
-   - After meal plan generation, the app will provide a shopping list with ingredients you need for the selected meals.
+   - After meal plan generation, the app will provide a shopping list with ingredients you need for the selected meals to the same output file ".txt".
 
 ## How to Run Tests
 
