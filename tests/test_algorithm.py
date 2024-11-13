@@ -52,9 +52,6 @@ class TestMeetsDailyNutritionalGoals(unittest.TestCase):
 
 
 
-import unittest
-from algorithms import create_meal_plan
-
 class TestCreateMealPlan(unittest.TestCase):
     def test_create_meal_plan(self):
         # Define a set of recipes
