@@ -2,7 +2,8 @@ import json
 import random
 import copy
 import itertools
-
+import matplotlib.pyplot as plt
+import numpy as np
 
 #################################################################################################
 ##                          Recommend all recipies that fit diet                               ##
@@ -150,6 +151,47 @@ def generate_shopping_list(meal_plan, ingredients):
 #################################################################################################
 ##                                  Nutritional Analysis                                       ##
 #################################################################################################
+def nutritional_analysis(meal_plan, preferences):
+    #Initialize summary containers
+    nutrition_summary = {
+        'total': {'calories': 0, 'protein': 0, 'carbs': 0, 'fat': 0, 'fiber': 0},
+        'daily': {},
+        'per_meal': {},
+        'comparison': {}
+    }
 
-def nutritional_analysis(meal_plan):
-    pass
+    #User's daily nutritional goals
+    goals = preferences['nutritional_goals']
+
+    #Process meal plan data
+    for day, meals in meal_plan.items():
+        daily_nutrition = {'calories': 0, 'protein': 0, 'carbs': 0, 'fat': 0, 'fiber': 0}
+        for meal, details in meals.items():
+            #Accumulate per-meal nutrition
+            if meal not in nutrition_summary['per_meal']:
+                nutrition_summary['per_meal'][meal] = {
+                    'calories': 0, 'protein': 0, 'carbs': 0, 'fat': 0, 'fiber': 0
+                }
+            for nutrient in nutrition_summary['total']:
+                value = details['nutrition'].get(nutrient, 0)
+                nutrition_summary['total'][nutrient] += value
+                daily_nutrition[nutrient] += value
+                nutrition_summary['per_meal'][meal][nutrient] += value
+        
+        #Add to daily breakdown
+        nutrition_summary['daily'][day] = daily_nutrition
+
+    #Calculate comparison against goals
+    num_days = len(meal_plan)
+    for nutrient, goal in goals.items():
+        actual = nutrition_summary['total'][nutrient] / num_days
+        difference = actual - goal
+        nutrition_summary['comparison'][nutrient] = {
+            'goal': goal,
+            'actual': actual,
+            'difference': difference
+        }
+
+    return nutrition_summary
+
+
