@@ -61,22 +61,6 @@ Before running the app, ensure you have the required dependencies installed. Use
    - `csv`
    - `os`
 
-## Division of Labor
-
-The project is divided into the following tasks:
-
-### Josh:
-- **Algorithm Development**: Develop the core algorithms for generating meal plans based on dietary preferences and nutritional goals.
-- **Documentation**: Help write the `README` file.
-### Dominic:
-- **Nutritional Analysis**: Handle the nutritional analysis of the recipes and ensure that the meal plan meets the specified goals.
-- **Testing and Documentation**: Assist with testing and documentation.
-### Bilal:
-- **User Interaction**: Handle user input for diet preferences and nutritional goals.
-- **Testing**: Ensure that the app works as expected by writing and running tests.
-- **Documentation**: Help write the `README` file.
-
-
 ## Acknowledgments
 
 - Thanks to our team members for contributing to the development of the Smart Recipe Recommender and Meal Planner.
