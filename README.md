@@ -53,10 +53,13 @@ To ensure the app is working correctly, you can run the automated tests:
 Before running the app, ensure you have the required dependencies installed. Use `pip` to install them:
 
 1. **Required Libraries**:
-   - `unittest` for testing
-   - `random` for random selection in meal planning
-   - `copy` for deep copy function
+   - `unittest` 
+   - `random`
+   - `copy`
    - `itertools`
+   - `json`
+   - `csv`
+   - `os`
 
 ## Division of Labor
 
