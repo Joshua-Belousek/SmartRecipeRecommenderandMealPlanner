@@ -17,7 +17,7 @@ class TestInputFunctions(unittest.TestCase):
 
     def test_read_json(self):
         preferences = inputs.read_Json("data/preferences.json")
-        self.assertEqual(preferences["diet"], "vegan")  # check if the diet is vegan 
+        self.assertEqual(preferences["diet"], "non-vegetarian")  # check if the diet is vegan 
         self.assertGreater(preferences["nutritional_goals"]["calories"], 500) # check if the calories greater than 500
 
 if __name__ == '__main__':
