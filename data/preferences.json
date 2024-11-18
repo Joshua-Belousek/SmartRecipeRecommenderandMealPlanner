@@ -1,10 +1,10 @@
 {
-    "diet": "vegan",
+    "diet": "non-vegetarian",
     "nutritional_goals": {
-        "calories": 2000,
-        "protein": 50,
-        "carbs": 250,
-        "fat": 65,
-        "fiber": 30
+        "calories": 3000,
+        "protein": 400,
+        "carbs": 100,
+        "fat": 35,
+        "fiber": 40
     }
 }
