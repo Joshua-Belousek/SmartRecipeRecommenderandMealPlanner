@@ -1,7 +1,7 @@
 # main.py
-import inputs as inputs
-import algorithms as algorithms
-import output as output
+import inputs
+import algorithms
+import output
 import json
 import os
 

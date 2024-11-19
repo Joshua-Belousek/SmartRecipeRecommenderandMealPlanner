@@ -1,0 +1,519 @@
+Meal Plan:
+Monday:
+  - Tofu Stir Fry
+  - Apple Pie
+  - Pancakes
+  - Egg Fried Rice
+  - Shrimp Pasta
+  - Banana Bread
+Tuesday:
+  - Seafood Paella
+  - Vegetable Stir Fry
+  - Avocado Toast
+  - Omelette
+  - Pesto Pasta
+  - BLT Sandwich
+  - Chocolate Chip Cookies
+Wednesday:
+  - Greek Salad
+  - Roasted Vegetables
+  - Grilled Cheese Sandwich
+  - Quinoa Salad
+  - Beef Stew
+  - Veggie Omelette
+  - Fruit Smoothie
+  - Salmon Teriyaki
+Thursday:
+  - Vegetable Curry
+  - Spaghetti Bolognese
+  - Grilled Chicken Salad
+  - Turkey Sandwich
+  - Steak and Potatoes
+Friday:
+  - Sushi Rolls
+  - Chicken Fajitas
+  - Tomato Basil Soup
+  - Caprese Salad
+  - Pumpkin Soup
+  - Chicken Caesar Salad
+  - Lentil Soup
+Saturday:
+  - Chicken Curry
+  - Mushroom Risotto
+  - Stuffed Peppers
+  - Pad Thai
+  - Chicken Noodle Soup
+Sunday:
+  - Vegan Chili
+  - Veggie Burger
+  - Chicken Alfredo
+  - Chickpea Curry
+  - Eggplant Parmesan
+  - Beef Tacos
+
+Shopping List:
+apple: 97
+cinnamon: 3
+egg: 446
+garlic: 25
+lemon juice: 15
+banana: 101
+flour: 200
+sugar: 70
+butter: 90
+mussels: 50
+bell pepper: 300
+avocado: 79
+cheddar cheese: 140
+basil: 25
+pine nuts: 10
+olive oil: 60
+tomato: 390
+chocolate chips: 50
+lettuce: 220
+potato: 300
+carrot: 180
+quinoa: 100
+cherry tomatoes: 50
+beef broth: 200
+mushrooms: 70
+onion: 450
+strawberries: 50
+milk: 100
+teriyaki sauce: 20
+sesame seeds: 5
+curry powder: 10
+spaghetti: 200
+tomato sauce: 200
+chicken breast: 800
+cucumber: 40
+bread: 50
+turkey: 50
+steak: 200
+sushi rice: 100
+nori sheets: 10
+soy sauce: 10
+tortilla: 50
+vegetable broth: 800
+cream: 150
+mozzarella: 100
+balsamic vinegar: 5
+pumpkin: 100
+nutmeg: 1
+croutons: 20
+caesar dressing: 20
+lentils: 100
+celery: 60
+coconut milk: 200
+curry paste: 20
+arborio rice: 100
+parmesan cheese: 70
+rice: 50
+ground beef: 200
+rice noodles: 100
+shrimp: 50
+bean sprouts: 30
+peanuts: 10
+noodles: 50
+kidney beans: 100
+burger bun: 50
+veggie patty: 100
+fettuccine: 100
+chickpeas: 100
+breadcrumbs: 50
+taco shells: 50
+salsa: 20
+
+Nutritional Analysis:
+Total for the week:
+  Calories: 17100
+  Protein: 767
+  Carbs: 1788
+  Fat: 721
+  Fiber: 208
+
+Daily Breakdown:
+Monday:
+  Calories: 2400
+  Protein: 72
+  Carbs: 340
+  Fat: 80
+  Fiber: 23
+
+Tuesday:
+  Calories: 2550
+  Protein: 88
+  Carbs: 290
+  Fat: 107
+  Fiber: 29
+
+Wednesday:
+  Calories: 2800
+  Protein: 130
+  Carbs: 250
+  Fat: 139
+  Fiber: 35
+
+Thursday:
+  Calories: 2300
+  Protein: 138
+  Carbs: 195
+  Fat: 102
+  Fiber: 21
+
+Friday:
+  Calories: 2250
+  Protein: 103
+  Carbs: 213
+  Fat: 98
+  Fiber: 37
+
+Saturday:
+  Calories: 2300
+  Protein: 117
+  Carbs: 235
+  Fat: 88
+  Fiber: 21
+
+Sunday:
+  Calories: 2500
+  Protein: 119
+  Carbs: 265
+  Fat: 107
+  Fiber: 42
+
+Per Meal Analysis:
+Tofu Stir Fry:
+  Calories: 250
+  Protein: 15
+  Carbs: 20
+  Fat: 12
+  Fiber: 6
+
+Apple Pie:
+  Calories: 400
+  Protein: 4
+  Carbs: 60
+  Fat: 15
+  Fiber: 5
+
+Pancakes:
+  Calories: 450
+  Protein: 12
+  Carbs: 70
+  Fat: 15
+  Fiber: 2
+
+Egg Fried Rice:
+  Calories: 400
+  Protein: 10
+  Carbs: 70
+  Fat: 8
+  Fiber: 4
+
+Shrimp Pasta:
+  Calories: 500
+  Protein: 25
+  Carbs: 60
+  Fat: 15
+  Fiber: 3
+
+Banana Bread:
+  Calories: 400
+  Protein: 6
+  Carbs: 60
+  Fat: 15
+  Fiber: 3
+
+Seafood Paella:
+  Calories: 500
+  Protein: 25
+  Carbs: 70
+  Fat: 10
+  Fiber: 5
+
+Vegetable Stir Fry:
+  Calories: 200
+  Protein: 6
+  Carbs: 35
+  Fat: 3
+  Fiber: 8
+
+Avocado Toast:
+  Calories: 250
+  Protein: 6
+  Carbs: 30
+  Fat: 12
+  Fiber: 7
+
+Omelette:
+  Calories: 300
+  Protein: 18
+  Carbs: 5
+  Fat: 24
+  Fiber: 1
+
+Pesto Pasta:
+  Calories: 500
+  Protein: 15
+  Carbs: 60
+  Fat: 20
+  Fiber: 4
+
+BLT Sandwich:
+  Calories: 350
+  Protein: 12
+  Carbs: 30
+  Fat: 18
+  Fiber: 2
+
+Chocolate Chip Cookies:
+  Calories: 450
+  Protein: 6
+  Carbs: 60
+  Fat: 20
+  Fiber: 2
+
+Greek Salad:
+  Calories: 200
+  Protein: 6
+  Carbs: 10
+  Fat: 15
+  Fiber: 3
+
+Roasted Vegetables:
+  Calories: 200
+  Protein: 4
+  Carbs: 30
+  Fat: 8
+  Fiber: 6
+
+Grilled Cheese Sandwich:
+  Calories: 400
+  Protein: 15
+  Carbs: 30
+  Fat: 25
+  Fiber: 2
+
+Quinoa Salad:
+  Calories: 350
+  Protein: 12
+  Carbs: 40
+  Fat: 15
+  Fiber: 6
+
+Beef Stew:
+  Calories: 500
+  Protein: 30
+  Carbs: 40
+  Fat: 20
+  Fiber: 6
+
+Veggie Omelette:
+  Calories: 350
+  Protein: 20
+  Carbs: 5
+  Fat: 28
+  Fiber: 2
+
+Fruit Smoothie:
+  Calories: 200
+  Protein: 8
+  Carbs: 35
+  Fat: 3
+  Fiber: 4
+
+Salmon Teriyaki:
+  Calories: 600
+  Protein: 35
+  Carbs: 60
+  Fat: 25
+  Fiber: 6
+
+Vegetable Curry:
+  Calories: 350
+  Protein: 8
+  Carbs: 40
+  Fat: 18
+  Fiber: 7
+
+Spaghetti Bolognese:
+  Calories: 650
+  Protein: 30
+  Carbs: 85
+  Fat: 20
+  Fiber: 5
+
+Grilled Chicken Salad:
+  Calories: 300
+  Protein: 35
+  Carbs: 10
+  Fat: 12
+  Fiber: 4
+
+Turkey Sandwich:
+  Calories: 300
+  Protein: 15
+  Carbs: 30
+  Fat: 12
+  Fiber: 2
+
+Steak and Potatoes:
+  Calories: 700
+  Protein: 50
+  Carbs: 30
+  Fat: 40
+  Fiber: 3
+
+Sushi Rolls:
+  Calories: 300
+  Protein: 6
+  Carbs: 60
+  Fat: 6
+  Fiber: 5
+
+Chicken Fajitas:
+  Calories: 550
+  Protein: 35
+  Carbs: 45
+  Fat: 20
+  Fiber: 6
+
+Tomato Basil Soup:
+  Calories: 250
+  Protein: 5
+  Carbs: 20
+  Fat: 15
+  Fiber: 4
+
+Caprese Salad:
+  Calories: 250
+  Protein: 12
+  Carbs: 8
+  Fat: 18
+  Fiber: 2
+
+Pumpkin Soup:
+  Calories: 250
+  Protein: 5
+  Carbs: 20
+  Fat: 15
+  Fiber: 5
+
+Chicken Caesar Salad:
+  Calories: 400
+  Protein: 25
+  Carbs: 20
+  Fat: 22
+  Fiber: 3
+
+Lentil Soup:
+  Calories: 250
+  Protein: 15
+  Carbs: 40
+  Fat: 2
+  Fiber: 12
+
+Chicken Curry:
+  Calories: 500
+  Protein: 35
+  Carbs: 15
+  Fat: 30
+  Fiber: 4
+
+Mushroom Risotto:
+  Calories: 450
+  Protein: 12
+  Carbs: 70
+  Fat: 12
+  Fiber: 4
+
+Stuffed Peppers:
+  Calories: 450
+  Protein: 25
+  Carbs: 40
+  Fat: 18
+  Fiber: 5
+
+Pad Thai:
+  Calories: 600
+  Protein: 25
+  Carbs: 80
+  Fat: 20
+  Fiber: 5
+
+Chicken Noodle Soup:
+  Calories: 300
+  Protein: 20
+  Carbs: 30
+  Fat: 8
+  Fiber: 3
+
+Vegan Chili:
+  Calories: 300
+  Protein: 15
+  Carbs: 45
+  Fat: 5
+  Fiber: 12
+
+Veggie Burger:
+  Calories: 350
+  Protein: 15
+  Carbs: 45
+  Fat: 12
+  Fiber: 6
+
+Chicken Alfredo:
+  Calories: 700
+  Protein: 40
+  Carbs: 60
+  Fat: 35
+  Fiber: 3
+
+Chickpea Curry:
+  Calories: 350
+  Protein: 12
+  Carbs: 40
+  Fat: 15
+  Fiber: 10
+
+Eggplant Parmesan:
+  Calories: 400
+  Protein: 15
+  Carbs: 45
+  Fat: 18
+  Fiber: 7
+
+Beef Tacos:
+  Calories: 400
+  Protein: 22
+  Carbs: 30
+  Fat: 22
+  Fiber: 4
+
+Comparison to Goals:
+Calories:
+  Goal: 2000
+  Actual: 2442.8571428571427
+  Difference: 442.85714285714266
+
+Protein:
+  Goal: 100
+  Actual: 109.57142857142857
+  Difference: 9.57142857142857
+
+Carbs:
+  Goal: 50
+  Actual: 255.42857142857142
+  Difference: 205.42857142857142
+
+Fat:
+  Goal: 35
+  Actual: 103.0
+  Difference: 68.0
+
+Fiber:
+  Goal: 40
+  Actual: 29.714285714285715
+  Difference: -10.285714285714285
+

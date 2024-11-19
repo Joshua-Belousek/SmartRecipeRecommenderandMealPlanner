@@ -1,9 +1,9 @@
 {
     "diet": "non-vegetarian",
     "nutritional_goals": {
-        "calories": 3000,
-        "protein": 400,
-        "carbs": 100,
+        "calories": 2000,
+        "protein": 100,
+        "carbs": 50,
         "fat": 35,
         "fiber": 40
     }
