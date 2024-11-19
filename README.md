@@ -56,7 +56,6 @@ Before running the app, ensure you have the required dependencies installed. Use
    - `unittest` 
    - `random`
    - `copy`
-   - `itertools`
    - `json`
    - `csv`
    - `os`
