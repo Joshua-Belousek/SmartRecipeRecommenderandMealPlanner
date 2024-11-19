@@ -133,12 +133,41 @@ class TestGenerateShoppingList(unittest.TestCase):
         # Check if shopping list contains the correct missing items
         self.assertEqual(shopping_list, {"lettuce": 1})  # Need 1 more lettuce
 
-################
-# Waiting on func
-################
+class TestNutritionalAnalysis(unittest.TestCase):
+    def test_nutritional_analysis(self):
+        # Mock meal plan
+        meal_plan = {
+            "Monday": {
+                "Breakfast": {"nutrition": {"calories": 300, "protein": 10, "carbs": 40, "fat": 5, "fiber": 3}},
+                "Lunch": {"nutrition": {"calories": 600, "protein": 30, "carbs": 70, "fat": 20, "fiber": 10}},
+            }
+        }
 
-# class TestNutritionalAnalysis(unittest.TestCase):
-#     # Test nutritional_analysis function (currently not implemented)
+        # Mock preferences with nutritional goals
+        preferences = {
+            "nutritional_goals": {
+                "calories": 2000,
+                "protein": 75,
+                "carbs": 250,
+                "fat": 70,
+                "fiber": 30
+            }
+        }
+
+        # Call the function
+        result = nutritional_analysis(meal_plan, preferences)
+
+        # Assertions for total nutrition
+        self.assertEqual(result['total']['calories'], 900)
+        self.assertEqual(result['total']['protein'], 40)
+        self.assertEqual(result['total']['carbs'], 110)
+        self.assertEqual(result['total']['fat'], 25)
+        self.assertEqual(result['total']['fiber'], 13)
+
+        # Assertions for comparison (just one example to simplify)
+        self.assertAlmostEqual(result['comparison']['calories']['actual'], 900.0)
+        self.assertAlmostEqual(result['comparison']['calories']['difference'], -1100.0)
+
 
 
 if __name__ == "__main__":

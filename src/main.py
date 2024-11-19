@@ -75,8 +75,9 @@ if __name__ == "__main__":
     # Generate and display shopping list
     shopping_list = algorithms.generate_shopping_list(meal_plan, ingredients)
     
+    # generate nutrional analysis 
+    nutrional_summary = algorithms.nutritional_analysis(meal_plan,preferences)
+
     # Save output
     output_file_path = "meal_plan_and_shopping_list.txt"
-    output.output_meal_plan_Shopping_list(output_file_path, meal_plan, shopping_list)
-
-    print("\nMeal plan and shopping list have been saved to:", output_file_path)
+    output.output_meal_plan_and_analysis(output_file_path, meal_plan, shopping_list, nutrional_summary)

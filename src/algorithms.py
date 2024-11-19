@@ -1,9 +1,6 @@
 import json
 import random
 import copy
-import itertools
-import matplotlib.pyplot as plt
-import numpy as np
 
 #################################################################################################
 ##                          Recommend all recipies that fit diet                               ##
@@ -193,5 +190,3 @@ def nutritional_analysis(meal_plan, preferences):
         }
 
     return nutrition_summary
-
-
