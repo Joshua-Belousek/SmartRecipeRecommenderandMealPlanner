@@ -1,1 +1,58 @@
 
+Algorithm development:
+Recommend Recipes:
+In order to recommend recipes we need to take into account a few factors.
+The users dietary preferences
+The ingredients that the user already has
+
+With that being said, our first step is to load the recipes that we have from a file into memory
+This is done from a json file so using the json.load function, it converts it into a dict.
+This dict is then run through a for loop, that sees if the recipes would satisfy the users diet, if it does then it adds it to another dict called recommended.
+This other dict, recommended, is then looped through and compared to the ingredients that the user has, it then has a number attached to it, which corresponds to the number of missing ingredients, which will be important later.
+Then this returns the recommended dict.
+
+This is a very basic algorithm that only distinguishes between if the user would eat it or not based on their diet.
+
+Create Meal Plan:
+This algorithm takes in the recommended recipes dict and then uses that to be able to make a meal plan for each day of the week.
+
+This algorithm is designed to ensure that:
+The user will not eat the same meal 2 times in one day
+The user should not be recommended the same recipe until all other have been recommended
+Recipes with the least amount of missing ingredients should be prioritized
+The calories required for each day should be meet with in +/- 10% of the user defined goal
+
+This algorithm loops through the days of the week, defined by a list at the start of the function.
+For each day, it goes through a loop that checks to see if the number of calories for that day was met or not.
+If it was not it continues to loop through and recommend recipes.
+It recommends recipes by first seeing if a recipe was not used yet today and then adds it to a possible recipes dict.
+Then it loops through that dict again and adds recipes that havent been used yet in that week to another dict called unused_recipies.
+If that dict has recipes in it, then it will be used to pick a meal for that day.
+Out of that dict, it sorts the recipes into a list based on the least number of ingredients missing.
+Out of that list, it picks a sub list that contains all of the recipes with the least number of ingredients missing and randomly picks a meal for that day.
+Once that recipe is picked, it calculates its calorie value and adds it to the dict of recipes for that day
+This loop continues to run until the calories for the day have been met.
+Once it has been met, then it adds that dict to the dict of meals for that day of the week.
+This continues till each day of the week has a meal plan that meets the calories required based on the user preferences .
+
+We choose to make an algorithm like this to ensure that the user has to buy the least amount of ingredients if they have to go to the store and ensure that they meet their calorie goal for the day, which is the most important metric when staying healthy and maintaining weight.
+
+Generate Shopping List:
+This algorithm takes in the meal plan and determines how much of each item the user will need to buy in order to make all of the meals that we recommended to them.
+It archives this by going day by day through the week and checking all of the ingredients needed to make each recipe for that day and comparing it to the ingredients the user has.
+If the user already has the whole amount or partial amount of an ingredient for a recipe, it adjusts a copy of the ingredients dict so when that ingredient runs out, we will be able to keep track of how much more is needed.  If the ingredient is needed then it adds the remaining amount needed after taking into account how much the user has to a shopping list dict.  This dict keeps track of all of the ingredients the user will need to buy.
+
+Main and CLI:
+For reading inputs and writing outputs, we created the files ‘inputs.py’ and ‘output.py’ that were used in a main.py file, for readability and simplicity reasons. The input file contains two simple functions, one to read a csv file and return the ingredients as a list of dictionaries and the other to read a json file and return preferences as a dictionary. They both open and close the file safely in read mode using the “with open” statement. 
+For writing outputs we created an output function that takes in the file_path, meal plan generated and shopping list. It opens and closes the provided file safely in writing mode, it iterates through the meal plan and shopping list, and writes to the output file in a specific way showing the day and each of the recommended recipes, along with the shopping list at the end.
+For main, we created two helper functions to provide a smooth user interaction, one to display the preferences and other to update them. Main will start by reading the ingredients and preferences file paths. Then call the update preferences function where it display the the current preferences and ask the user if they want to update, based on user input “y/n” it will proceed either by running the algorithms and generating the meal plans and shopping list, or prompt user to update the preferences and nutrition goals then proceed with main. In main, we used the input functions to read and the output functions to write the output file, after passing the result from the algorithms functions.
+The use of functions and the way the main was written is to ensure simplicity and a smooth user interaction.
+
+Nutritional Analysis:
+This function takes the inputs of the meal plan and the preferences of the user. The return value, nutrition_summary, is initialized as a dictionary of dictionaries. The outside dictionaries track the total nutrition, daily nutrition, per_meal nutrition, and comparison to goal. The inside dictionaries hold the values of calories, protein, carbs, fat, and fiber. The function then iterates through meal_plan and calculates all of the values for the daily nutrition, per meal nutrition, and total nutrition according to the preferences of the user. These values are then used to compare to the goal of the user and show the +/- of their goals. It puts all of the values in their respective dictionaries at the moment of calculation and is returned as the dictionary nutrition_summary.  
+
+
+Tests:
+We created unit tests to test our inputs, outputs and algorithms functions. We separated them into 3 files. We tested the input functions by letting them read a csv and json file and using assertEqual to ensure that the data was read successfully and as expected. For the output function we tested by creating simple meal plans and shopping lists and passed them to our output file, to ensure that the created file contains the specific meal plans and items in the shopping list we used asserIn for each of the meal plans and items to check. For algo testing, we wrote a unit test to include all functions used. We created simple samples of ingredients recipes and preferences for testing, and used assertEqual, assertTrue, assertFalse and asserGreaterEqual to check for presence of specific meals, length, days, ingredients and recipes.
+
+
